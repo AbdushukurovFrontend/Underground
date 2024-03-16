@@ -1,0 +1,138 @@
+li {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+body {
+  background: rgb(8, 5, 29);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mb_top {
+  margin-top: 160px;
+}
+
+.mb_top1 {
+  margin-top: 110px;
+}
+
+.button_still {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  width: 150px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.button_still:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(8, 5, 29);
+  transition: 0.2s;
+}
+
+.navbar-input {
+  outline: none;
+  border: none;
+  width: 240px;
+  padding: 5px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background: transparent;
+}
+
+.icon {
+  position: absolute;
+  left: 90%;
+  top: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.cursor img:hover {
+  transform: scale(0.9);
+  transition: ease-in-out 0.3s;
+  border-radius: 11px;
+  box-shadow: 1px 1px 33px -8px rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 419px) {
+  .cursor {
+    transform: translatex(40%);
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .nest {
+    margin-left: 30px;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 489px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 564px) {
+  .cursor {
+    transform: translatex(40%);
+  }
+}
+.footer {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.nest {
+  gap: 30px;
+  margin-left: 55px;
+}
+
+.animat_h1 {
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-name: animat_h1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes animat_h1 {
+  0% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+.animatsiya {
+  border-radius: 10px;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-name: top-bottom;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes top-bottom {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}/*# sourceMappingURL=stayle.css.map */
